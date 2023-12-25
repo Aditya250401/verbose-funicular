@@ -1,9 +1,6 @@
 const express = require('express')
-
-const adminRouter = require('./routes/admin')
-const userRouter = require('./routes/user')
-
 const app = express()
+const cors = require('cors')
 
 app.use(cors())
 app.use(express.json())
