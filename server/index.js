@@ -7,7 +7,7 @@ app.use(express.json())
 
 // Routes
 app.use('/', (req, res) => {
-	res.send('i have succesfully implemented the complete pipeline try 4')
+	res.send('i have successfully implemented the complete pipeline try 4')
 })
 
 app.listen(3000, () => console.log('Server running on port 3000'))
